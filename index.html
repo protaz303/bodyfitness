@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Platform</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            background: magenta;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul img {
+            margin-right: 10px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('images/homebg.jpeg'); /* Replace with your background image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: yellow;
+            font-size: 32px;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero h3 {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .hero button a {
+            display: inline-block;
+            background: #ff6f61;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        /* Features Section */
+        .features {
+            background: blue;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .feature-cards {
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: blueviolet;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .card h3 a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive Media Queries */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero h3 {
+                font-size: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 50px 10px;
+            }
+
+            .features {
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Body Fitness Platform</h1>
+            <nav>
+                <ul>
+                    <img src="images/logo.png" height="65px" width="70px" align="left">
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="About us.html">ABOUT US</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <marquee><h1> Welcome to Body Fitness Platform</h1></marquee>
+            <h3>Your Fitness Partner!</h3><br><br>
+<h4>
+At this fitness platform, we’re dedicated to helping you achieve your fitness goals with personalized workout plans, expert advice, and a supportive community. Whether you’re just starting or looking to level up, we have everything you need to succeed. <br>
+
+Our mission is to inspire healthier lives by providing the knowledge, and encouragement you need to unlock your full potential. From beginner-friendly guides to advanced fitness techniques, we cater to all fitness levels. With access to our professional trainers and carefully curated resources, you'll have the confidence to stay committed to your journey. <br>
+
+We believe fitness isn’t just about working out; it’s a lifestyle. That’s why we offer guidance on nutrition, mental wellness, and building habits that last. Join a thriving community of fitness enthusiasts who uplift and motivate one another to achieve greatness.
+<br><br>
+<h3><b>
+Here’s what you’ll discover on our platform:</b></h3>
+<li>
+Custom Fitness Plans: Tailored workouts that align with your body type, goals, and fitness level.
+Expert-Led Content: Videos, tutorials, and articles from certified trainers and industry professionals.
+Community Support: Engage with others, share your journey, and celebrate your progress together.
+Holistic Wellness: Insights into healthy eating, mental health, and achieving balance in your life.</li><br>
+At Body Fitness Platform, we know that every step counts. Whether you're training for a specific goal, recovering from injury, or simply striving for a healthier lifestyle, we’re here to walk beside you every step of the way. <br><br>
+
+Take the first step towards a healthier, happier you today. Let’s redefine what’s possible together!
+            </h4>
+            <br><br><br>
+            <button><a href="learn_more.html">LEARN MORE</a></button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <h3><a href="workout.html">Workout Plans</a></h3>
+                    <p>Customized workout plans for every fitness level.</p>
+                </div>
+                <div class="card">
+                    <h3><a href="Nutrition.html">Nutrition Advice</a></h3>
+                    <p>Expert nutrition tips to complement your fitness goals.</p>
+                </div>
+                <div class="card">
+                    <h3><a href="online.html">Online Coaching</a></h3>
+                    <p>Get personal coaching with our online fitness experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <marquee> <p>&copy; 2025 Fitness Platform. All rights reserved BY Protaz.</p></marquee>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,840 @@
+
+/*learn more*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation */
+.navigation {
+    list-style: none;
+    background: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    color: #f0a500;
+}
+
+/* Learn More Section */
+.learn-more-section {
+    padding: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.text {
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.video {
+    margin-top: 30px;
+}
+
+.video video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.social-links a {
+    color: #f0a500;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+
+/*contacts*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation li {
+    margin: 0 1rem;
+}
+
+header .navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header .navigation a:hover {
+    color: #f3a953;
+}
+
+/* Contact Section */
+.contact-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+    margin-top: 2rem;
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-container label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: blue;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    border-color: #f3a953;
+    outline: none;
+}
+
+.contact-container button {
+    background-color: #f3a953;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-container button:hover {
+    background-color: #d98635;
+}
+
+.note {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer .social-media {
+    margin-bottom: 1rem;
+}
+
+footer .social-media img {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    transition: transform 0.3s;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 1rem;
+    }
+
+    .contact-container h1 {
+        font-size: 2rem;
+    }
+
+    header .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .navigation li {
+        margin: 0.5rem 0;
+    }
+}
+
+
+/*About us section*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('images/aboutbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: black;
+    padding: 1rem 0;
+}
+
+header ul {
+    list-style: none;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header li {
+    margin: 0 1rem;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #f3a953;
+}
+
+/* About Section */
+.about-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.mission,
+.vision {
+    flex: 1;
+}
+
+.team {
+    margin-top: 2rem;
+}
+
+.team ul {
+    list-style: none;
+    padding: 0;
+}
+
+.team-member {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.team-member img {
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.map iframe {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+/*nutrition*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/nt.jpeg);
+    background-size: cover;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+header .navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation li {
+    margin: 0 15px;
+}
+
+header .navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Nutrition Section Styles */
+.nutrition-section {
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    border-radius: 8px;
+}
+
+.nutrition-section h1 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+.nutrition-section h2 {
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+.nutrition-section p {
+    line-height: 1.6;
+}
+
+.nutrition-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+/*workout*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    background-image: url('jjj.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+header .navigation {
+    list-style: none;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation li {
+    margin: 0 15px;
+}
+
+header .navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Workout Section Styles */
+.workout-section {
+     background-image: url('images/jjj.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: blue;
+            text-align: left;
+            padding: 100px 20px;;
+}
+
+.workout-section h1 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+.workout-section p {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.workout-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.workout-column {
+    flex: 1;
+    max-width: 30%;
+    min-width: 280px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.workout-column h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.workout-column p {
+    line-height: 1.6;
+}
+
+.workout-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+/*online coaching*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+header .navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation li {
+    margin: 0 15px;
+}
+
+header .navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Online Coaching Section Styles */
+.coaching-section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.coaching-section h1 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+.coaching-section p {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.coaching-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.coaching-column {
+    flex: 1;
+    max-width: 23%;
+    min-width: 240px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.coaching-column h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.coaching-column p {
+    line-height: 1.6;
+}
+
+.coaching-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+/*services*/
+
+/* servises General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #222;
+    padding: 10px 20px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #00bcd4;
+}
+.services {
+    padding: 20px;
+    background-image: url('images/services-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+.low-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.low-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.video-container1 {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.video-container2 {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.video-container3 {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container3 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+
+
+.video-container4{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container4iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.low-section .tips {
+    font-style: italic;
+    color: #f0a500;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #00bcd4;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+
+
+
+
+

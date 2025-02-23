@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+
+            // Use fetch to send the form data to a server-side endpoint (or EmailJS)
+            fetch("submit_form.php", {
+                method: "POST",
+                body: formData,
+            })
+                .then(response => response.text())
+                .then(data => {
+                    // Show success notification
+                    alert("Thanks for your message! You will be replied to soon.");
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    alert("Something went wrong. Please try again.");
+                });
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Index</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At Body Fitness Platform, we value your feedback, questions, and inquiries. Whether you’re a fitness enthusiast, partner, or just looking to learn more about us, we’re here to help. Our dedicated team is committed to providing you with the information and support you need to achieve your fitness goals. We believe in building strong connections with our community and fostering an environment of motivation and collaboration. Your input is invaluable in helping us grow and continue making a difference in the lives of individuals seeking a healthier and more active lifestyle. Whether you’re reaching out for personalized fitness advice, partnership opportunities, or simply to share your fitness journey, we are eager to listen and assist</h2>
+            <h3>
+                At Body Fitness Platform, we value your feedback, questions, and inquiries...
+            </h3>
+            <br><br>
+            <h5>
+                Phone: +255-750364905 <br> 
+                Email: protazjofrey14@gmail.com <br> 
+                Address: Mwanza College of Health and Allied Sciences, Mwanza, Tanzania  <br>
+                Business Hours: Mon-Fri, 8:00 AM - 5:00 PM
+            </h5>
+        </div>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <form action="mailto:protazjofrey14@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p class="note">* Your information is safe with us.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <h2>Social Media Links</h2>
+            <a href="https://api.whatsapp.com/send?phone=+255750364905" target="_whatsapp">
+                <img src="images/whatsapp-logo.jpeg" alt="WhatsApp">
+            </a>
+            <a href="https://www.facebook.com/search/top?q=mwanza%20college%20of%20health%20and%20allied%20sciences" target="Facebook">
+                <img src="images/facebook-logo.jpeg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/mwachas_bugando?igsh=YzljYTk10Dg3Zg==" target="_blank">
+                <img src="images/instagram-logo.jpeg" alt="Instagram">
+            </a>
+        </div>
+        <p>&copy; 2025 Fitness Platform. All rights reserved by Protaz.</p>
+    </footer>
+</body>
+</html>
