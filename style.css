@@ -183,7 +183,7 @@ header .navigation a:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: blue;
+    background-color: white;
 }
 
 .contact-container input:focus,
