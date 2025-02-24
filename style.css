@@ -282,7 +282,7 @@ header {
 
 header ul {
     list-style: none;
-    background-color: bisque;
+    background-color: red;
     display: flex;
     justify-content: center;
     padding: 0;
